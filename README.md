@@ -19,7 +19,7 @@ Default use (script.txt transcript_1.txt transcript_2.txt transcript_3.txt 10)
 
 Generic use
 
->$ python3 main.py <script.txt> [<transcript.txt>] <n>
+>$ python3 main.py <script.txt> [<transcript.txt>] <nTop>
 
 
 # Lib skimming.py
@@ -30,11 +30,11 @@ Class Keyword to get word-score
 
 getKeywords: get all keywords in a file
 
->getKeywords(<filename>) -> [Keyword]
+>getKeywords(filename) -> [Keyword]
 
 topKeywords: get N top keywords in a file
 
->topKeywords(<filename>, <int>) -> [Keywords]
+>topKeywords(filename, int) -> [Keywords]
 
 normalizeKeywords: normalize the score in array keyword
 
@@ -42,5 +42,5 @@ normalizeKeywords: normalize the score in array keyword
 
 skimming: update the keyword array with the noun of a new line
 
->skimming (<string>,<section>,[Keywords]) -> [keyword]
+>skimming (string,int,[Keywords]) -> [Keyword]
 
