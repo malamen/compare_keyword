@@ -19,7 +19,7 @@ Default use (script.txt transcript_1.txt transcript_2.txt transcript_3.txt 10)
 
 Generic use
 
->$ python3 main.py <script.txt> [<transcript.txt>] <nTop>
+>$ python3 main.py <script.txt> [<transcript.txt>] num_tops
 
 
 # Lib skimming.py
